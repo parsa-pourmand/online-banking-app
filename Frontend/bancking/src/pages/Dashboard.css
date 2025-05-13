@@ -1,0 +1,75 @@
+.dashboard-container {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #f9f9f9;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  .dashboard-heading {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    color: #333;
+  }
+  
+  .dashboard-error {
+    color: red;
+    font-weight: bold;
+  }
+  
+  .dashboard-balance {
+    margin-bottom: 2rem;
+    background-color: #eef6f2;
+    padding: 1rem;
+    border-radius: 8px;
+    border-left: 5px solid #28a745;
+  }
+  
+  .dashboard-balance p {
+    margin: 0;
+    font-size: 1.1rem;
+  }
+  
+  .dashboard-balance h1 {
+    margin: 0.5rem 0 0;
+    font-size: 2rem;
+    color: #28a745;
+  }
+  
+  .dashboard-form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .dashboard-input {
+    padding: 0.6rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+  }
+  
+  .dashboard-button {
+    padding: 0.6rem;
+    font-size: 1rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .dashboard-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .dashboard-message {
+    margin-top: 1rem;
+    color: #333;
+    font-weight: bold;
+  }  

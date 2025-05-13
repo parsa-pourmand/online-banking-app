@@ -1,0 +1,48 @@
+/* src/components/LoginPage.css */
+.login-container {
+    padding: 2rem;
+    max-width: 400px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .login-heading {
+    margin-bottom: 1.5rem;
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .login-input {
+    padding: 0.75rem;
+    font-size: 1rem;
+  }
+  
+  .login-button {
+    padding: 0.75rem;
+    font-size: 1rem;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+
+  .sign-button {
+    padding: 0.75rem;
+    gap: 1rem;
+    font-size: 1rem;
+    background-color: #385;
+    margin-top: 10px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .login-message {
+    margin-top: 1rem;
+    color: red;
+  }
+  
